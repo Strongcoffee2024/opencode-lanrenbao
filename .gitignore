@@ -1,0 +1,32 @@
+# 忽略系统文件
+.git/
+.DS_Store
+Thumbs.db
+
+# 忽略草稿和临时文件
+workspace/*
+!workspace/.gitkeep
+
+# 忽略原始素材（不应该上传）
+raw/
+
+# 忽略部分 Wiki 内容（可选，根据隐私需求）
+# wiki/10-写作素材/*
+# wiki/50-原创/*
+
+# 忽略上下文文件
+context/
+
+# 忽略教训记录
+lessons/
+
+# Python __pycache__
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE 配置
+.vscode/
+.idea/
+*.swp
+*.swo
